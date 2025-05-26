@@ -4,8 +4,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CociCampus</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="icon" type="image/x-icon" href="https://images.emojiterra.com/google/android-12l/512px/1f35d.png">
 </head>
 <body>
-    
+    <header>
+        <a class="navbar-a" href="#">
+            <img src="https://png.pngtree.com/png-clipart/20221219/ourmid/pngtree-pasta-or-spaghetti-icon-png-image_6528365.png" alt="Logo">
+        </a>   
+        <section id="dashboard" class="dashboard">
+            <nav class="menu">
+                <h1 class="firsttxt">CociCampus</h1> 
+                <button>
+                    <a class="boton" href="index.html">Recetas</a>
+                </button>
+                <button>
+                    <a class="boton" href="index.html">Tipos de comidas</a>
+                </button>
+                <button>
+                    <a class="boton" href="index.html">Eventos</a>
+                </button>
+                <button>
+                    <a class="boton" href="index.html">Descubre</a>
+                </button>
+                <button>
+                    <a class="boton" href="index.html">Contact US</a>
+                </button>
+                <button>
+                    <a class="boton" href="index.html">Favorites</a>
+                </button>
+                <button>
+                    <a class="boton" href="index.html">Sign in</a>
+                </button>
+            </nav>
+
+        </section>
+    </header>
+    <section class="primero">
+        <h1 class="welcome">Bienvenido a CociCampus</h1>
+        <p class="content">Explora nuestras maravillosas recetas y descubre todo de lo que te puedes antojar!</p>
+        <div class="primerodiv">
+
+            <div class="dropdown">
+                    <span>Filtrar</span>
+                <div class="dropdown-content">
+                    <a  href="#">Postres</a>
+                    <a  href="#">Comidas Principales</a>
+                    <a  href="#">Tipos de comida</a>
+                </div>
+            </div>
+
+            <input type="text" class="form-control" placeholder="Search for a Meal...">
+        </div>
+    </section>
+    <section class="catalogo">
+        <h2>Popular Meals</h2>
+        <div id="MealFinder" class="contenido">
+            <div class="card">
+                <img class="imagen" src="./storage/pancakes.jpg" alt="">
+                <div class="card-body">
+                    <a href="">Panqueques Blini</a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="imagen" src="./storage/fresas.jpg" alt="">
+                <div class="card-body">
+                    <a href="">Fresas Romanoff</a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="imagen" src="./storage/ensalada.jpg" alt="">
+                <div class="card-body">
+                    <a href="">Ensalada de papa (Ensalada Olivier)</a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="imagen" src="./storage/ham.jpg" alt="">
+                <div class="card-body">
+                    <a href="">Hamburguesas de pollo y halloumi de 15 minutos</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
 </body>
+
+<script src="script/script.js"></script>
 </html>
