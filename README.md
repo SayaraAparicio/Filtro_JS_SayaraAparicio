@@ -1,11 +1,11 @@
 # CociCampus 🍝
 ---
 
-**Explora la emoción de la F1** - Página interactiva de MealFinder, desarrollada con tecnologías web modernas **HTML , CSS y JS**. Con el objetivo desarrollar una simulación interactiva de un buscador de recetas
+**Explora la cantidad de recetas** - Página interactiva de MealFinder, desarrollada con tecnologías web modernas **HTML , CSS y JS**. Con el objetivo desarrollar una simulación interactiva de un buscador de recetas
 
 ---
 
-## 🚦 Características Principales
+## Características Principales
 - Estética basada en página
 - 🔍 Text and image-based search functionality
 
